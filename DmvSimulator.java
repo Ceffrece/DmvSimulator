@@ -14,7 +14,7 @@ public class DmvSimulator{
             Thread.sleep(1000); //Comment out this line before running unless you want a stupid long wait
             count++;
         }
-        System.out.println("Calling Number " + count);
-        System.out.println("It seems that you do not have the required paperwork.");
+        System.out.println("Calling Number " + count + "to the booth");
+        System.out.println("You seriously don't have your paperwork. Idiot! Come back when you have your paperwork. NEXT!");
     }
 }
