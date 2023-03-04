@@ -15,6 +15,6 @@ public class DmvSimulator{
             count++;
         }
         System.out.println("Calling Number " + count + "to the booth");
-        System.out.println("It seems that you do not have the required paperwork.");
+        System.out.println("You seriously don't have your paperwork. Idiot! Come back when you have your paperwork. NEXT!");
     }
 }
