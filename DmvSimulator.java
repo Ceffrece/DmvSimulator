@@ -21,7 +21,7 @@ public class DmvSimulator{
             System.out.println("You have all the required paperwork! Congradulations, you are all set. Have a nice day!");
         }
         else{
-            System.out.println("You seriously don't have your paperwork. Idiot! Come back when you have your paperwork. NEXT!");
-        }   
+            System.out.println("You seriously don't have your paperwork. Idiot! Come back when you have your paperwork. NEXT! HAHAHAHHA");
+        }  
     }
 }
