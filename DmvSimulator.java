@@ -15,6 +15,13 @@ public class DmvSimulator{
             count++;
         }
         System.out.println("Calling Number " + count + "to the booth");
-        System.out.println("You seriously don't have your paperwork. Idiot! Come back when you have your paperwork. NEXT!");
+        SecureRandom randomNum2 = new SecureRandom();
+        int miracleVal = randomNum2.nextInt(100);
+        if(miracleVal == 1){
+            System.out.println("You have all the required paperwork! Congradulations, you are all set. Have a nice day!");
+        }
+        else{
+            System.out.println("You seriously don't have your paperwork. Idiot! Come back when you have your paperwork. NEXT!");
+        }   
     }
 }
